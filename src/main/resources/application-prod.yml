@@ -3,18 +3,23 @@ server:
 
 spring:
   datasource:
-    url: ${DATABASE_URL:jdbc:postgresql://db:5432/apnadukan}
-    username: ${DATABASE_USERNAME:apnadukan}
-    password: ${DATABASE_PASSWORD:apnadukan}
-    driver-class-name: org.postgresql.Driver
+    url: jdbc:h2:mem:apnadukan;DB_CLOSE_DELAY=-1
+    username: sa
+    password: 
+    driver-class-name: org.h2.Driver
   
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
   jpa:
     hibernate:
-      ddl-auto: validate
+      ddl-auto: update
     show-sql: false
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+        dialect: org.hibernate.dialect.H2Dialect
 
 logging:
   level:
