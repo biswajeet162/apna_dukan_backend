@@ -1,0 +1,79 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2026-01-04T14:20:05.258+05:30  INFO 9756 --- [apna-dukan-backend] [           main] com.apnadukan.ApnaDukanApplicationKt     : Starting ApnaDukanApplicationKt using Java 17.0.12 with PID 9756 (E:\b2b\flutter\apna_dukan_backend\target\apna_dukan_backend-0.0.1-SNAPSHOT.jar started by biswa in E:\b2b\flutter\apna_dukan_backend)
+2026-01-04T14:20:05.260+05:30 DEBUG 9756 --- [apna-dukan-backend] [           main] com.apnadukan.ApnaDukanApplicationKt     : Running with Spring Boot v3.2.1, Spring v6.1.2
+2026-01-04T14:20:05.260+05:30  INFO 9756 --- [apna-dukan-backend] [           main] com.apnadukan.ApnaDukanApplicationKt     : The following 1 profile is active: "local"
+2026-01-04T14:20:06.667+05:30  INFO 9756 --- [apna-dukan-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-04T14:20:06.732+05:30  INFO 9756 --- [apna-dukan-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2026-01-04T14:20:07.510+05:30  INFO 9756 --- [apna-dukan-backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-04T14:20:07.525+05:30  INFO 9756 --- [apna-dukan-backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-04T14:20:07.526+05:30  INFO 9756 --- [apna-dukan-backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-01-04T14:20:07.598+05:30  INFO 9756 --- [apna-dukan-backend] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-04T14:20:07.600+05:30  INFO 9756 --- [apna-dukan-backend] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2198 ms
+2026-01-04T14:20:07.644+05:30  INFO 9756 --- [apna-dukan-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-04T14:20:07.972+05:30  INFO 9756 --- [apna-dukan-backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:apnadukan user=SA
+2026-01-04T14:20:07.975+05:30  INFO 9756 --- [apna-dukan-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-04T14:20:07.981+05:30  INFO 9756 --- [apna-dukan-backend] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:apnadukan'
+2026-01-04T14:20:08.076+05:30 DEBUG 9756 --- [apna-dukan-backend] [           main] c.a.a.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2026-01-04T14:20:08.125+05:30  WARN 9756 --- [apna-dukan-backend] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute database script from resource [URL [jar:nested:/E:/b2b/flutter/apna_dukan_backend/target/apna_dukan_backend-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/data.sql]]
+2026-01-04T14:20:08.125+05:30  INFO 9756 --- [apna-dukan-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-04T14:20:08.133+05:30  INFO 9756 --- [apna-dukan-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-04T14:20:08.141+05:30  INFO 9756 --- [apna-dukan-backend] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-01-04T14:20:08.160+05:30  INFO 9756 --- [apna-dukan-backend] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-04T14:20:08.206+05:30 ERROR 9756 --- [apna-dukan-backend] [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute database script from resource [URL [jar:nested:/E:/b2b/flutter/apna_dukan_backend/target/apna_dukan_backend-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/data.sql]]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1773) ~[spring-beans-6.1.2.jar!/:6.1.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.2.jar!/:6.1.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.1.2.jar!/:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.2.jar!/:6.1.2]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.2.jar!/:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.2.jar!/:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.2.jar!/:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:312) ~[spring-beans-6.1.2.jar!/:6.1.2]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.2.jar!/:6.1.2]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1232) ~[spring-context-6.1.2.jar!/:6.1.2]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950) ~[spring-context-6.1.2.jar!/:6.1.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.2.jar!/:6.1.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:464) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1358) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1347) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at com.apnadukan.ApnaDukanApplicationKt.main(ApnaDukanApplication.kt:14) ~[!/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:91) ~[apna_dukan_backend-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:53) ~[apna_dukan_backend-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:58) ~[apna_dukan_backend-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+Caused by: org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script from resource [URL [jar:nested:/E:/b2b/flutter/apna_dukan_backend/target/apna_dukan_backend-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/data.sql]]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:305) ~[spring-jdbc-6.1.2.jar!/:6.1.2]
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254) ~[spring-jdbc-6.1.2.jar!/:6.1.2]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54) ~[spring-jdbc-6.1.2.jar!/:6.1.2]
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66) ~[spring-boot-3.2.1.jar!/:3.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1820) ~[spring-beans-6.1.2.jar!/:6.1.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1769) ~[spring-beans-6.1.2.jar!/:6.1.2]
+	... 25 common frames omitted
+Caused by: java.lang.IllegalArgumentException: 'script' must not be null or empty
+	at org.springframework.util.Assert.hasText(Assert.java:240) ~[spring-core-6.1.2.jar!/:6.1.2]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.splitSqlScript(ScriptUtils.java:475) ~[spring-jdbc-6.1.2.jar!/:6.1.2]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:252) ~[spring-jdbc-6.1.2.jar!/:6.1.2]
+	... 35 common frames omitted
+

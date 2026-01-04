@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://db:5432/apnadukan}
+    username: ${DATABASE_USERNAME:apnadukan}
+    password: ${DATABASE_PASSWORD:apnadukan}
+    driver-class-name: org.postgresql.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  level:
+    root: WARN
+    com.apnadukan: INFO
+

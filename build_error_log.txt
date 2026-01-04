@@ -1,0 +1,201 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.apnadukan:apna_dukan_backend >------------------
+[INFO] Building apna_dukan_backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ apna_dukan_backend ---
+[INFO] Copying 4 resources from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ apna_dukan_backend ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- kotlin:1.9.25:compile (compile) @ apna_dukan_backend ---
+[INFO] Applied plugin: 'spring'
+[WARNING] Flag is not supported by this version of the compiler: -Xannotation-default-target=param-property
+[ERROR] E:/b2b/flutter/apna_dukan_backend/target/classes/META-INF/apna_dukan_backend.kotlin_module: (-1, -1) Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.2.0, expected version is 1.9.0.
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\controller\AuthController.kt: (9, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\controller\AuthController.kt: (21, 13) Unresolved reference: Valid
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\controller\AuthController.kt: (27, 14) Unresolved reference: Valid
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\controller\AuthController.kt: (33, 17) Unresolved reference: Valid
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\controller\AuthController.kt: (39, 20) Unresolved reference: Valid
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ForgotPasswordRequest.kt: (3, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ForgotPasswordRequest.kt: (4, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ForgotPasswordRequest.kt: (7, 9) Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ForgotPasswordRequest.kt: (8, 9) Unresolved reference: Pattern
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\LoginRequest.kt: (3, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\LoginRequest.kt: (4, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\LoginRequest.kt: (7, 9) Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\LoginRequest.kt: (8, 9) Unresolved reference: Pattern
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\OtpVerifyRequest.kt: (3, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\OtpVerifyRequest.kt: (4, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\OtpVerifyRequest.kt: (7, 9) Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\OtpVerifyRequest.kt: (10, 9) Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\OtpVerifyRequest.kt: (11, 9) Unresolved reference: Pattern
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt: (3, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt: (4, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt: (5, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt: (8, 9) Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt: (11, 9) Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt: (12, 9) Unresolved reference: Pattern
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt: (15, 9) Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt: (16, 9) Unresolved reference: Size
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt: (3, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt: (4, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt: (5, 16) Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt: (8, 9) Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt: (9, 9) Unresolved reference: Pattern
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt: (12, 9) Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt: (15, 9) Unresolved reference: Email
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt: (6, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt: (7, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt: (8, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt: (9, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt: (34, 50) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt: (36, 26) Unresolved reference: UsernamePasswordAuthenticationToken
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt: (41, 20) Variable expected
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt: (41, 30) Unresolved reference: WebAuthenticationDetailsSource
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt: (43, 5) Unresolved reference: SecurityContextHolder
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt: (43, 40) Variable expected
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt: (4, 11) Unresolved reference: jsonwebtoken
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt: (5, 11) Unresolved reference: jsonwebtoken
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt: (19, 25) Unresolved reference: Keys
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt: (25, 10) Unresolved reference: Jwts
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt: (37, 4) Unresolved reference: Jwts
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt: (42, 15) Unresolved reference: JwtException
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt: (50, 16) Unresolved reference: Jwts
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt: (60, 16) Unresolved reference: Jwts
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt: (73, 41) Unresolved reference: Claims
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt: (74, 10) Unresolved reference: Jwts
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\PasswordEncoderConfig.kt: (5, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\PasswordEncoderConfig.kt: (6, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\PasswordEncoderConfig.kt: (11, 25) Unresolved reference: PasswordEncoder
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\PasswordEncoderConfig.kt: (12, 10) Unresolved reference: BCryptPasswordEncoder
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (5, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (6, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (7, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (8, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (9, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (12, 2) Unresolved reference: EnableWebSecurity
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (17, 32) Unresolved reference: HttpSecurity
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (17, 47) Unresolved reference: SecurityFilterChain
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (19, 12) Unresolved reference: it
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (20, 25) Unresolved reference: it
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (20, 50) Unresolved reference: SessionCreationPolicy
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (21, 29) Cannot infer a type for this parameter. Please specify it explicitly.
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (32, 15) Cannot infer a type for this parameter. Please specify it explicitly.
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (33, 28) Unresolved reference: it
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt: (35, 46) Unresolved reference: UsernamePasswordAuthenticationFilter
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt: (14, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt: (15, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt: (16, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt: (31, 5) Unresolved reference: UserDetailsService
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt: (33, 2) 'loadUserByUsername' overrides nothing
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt: (33, 53) Unresolved reference: UserDetails
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt: (35, 17) Type mismatch: inferred type is Unit! but Throwable! was expected
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt: (35, 19) Unresolved reference: UsernameNotFoundException
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt: (37, 30) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt: (44, 52) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\PasswordService.kt: (3, 28) Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\PasswordService.kt: (8, 31) Unresolved reference: PasswordEncoder
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.048 s
+[INFO] Finished at: 2026-01-04T14:16:35+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.jetbrains.kotlin:kotlin-maven-plugin:1.9.25:compile (compile) on project apna_dukan_backend: Compilation failure: Compilation failure: 
+[ERROR] E:/b2b/flutter/apna_dukan_backend/target/classes/META-INF/apna_dukan_backend.kotlin_module: Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.2.0, expected version is 1.9.0.
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\controller\AuthController.kt:[9,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\controller\AuthController.kt:[21,13] Unresolved reference: Valid
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\controller\AuthController.kt:[27,14] Unresolved reference: Valid
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\controller\AuthController.kt:[33,17] Unresolved reference: Valid
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\controller\AuthController.kt:[39,20] Unresolved reference: Valid
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ForgotPasswordRequest.kt:[3,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ForgotPasswordRequest.kt:[4,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ForgotPasswordRequest.kt:[7,9] Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ForgotPasswordRequest.kt:[8,9] Unresolved reference: Pattern
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\LoginRequest.kt:[3,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\LoginRequest.kt:[4,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\LoginRequest.kt:[7,9] Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\LoginRequest.kt:[8,9] Unresolved reference: Pattern
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\OtpVerifyRequest.kt:[3,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\OtpVerifyRequest.kt:[4,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\OtpVerifyRequest.kt:[7,9] Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\OtpVerifyRequest.kt:[10,9] Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\OtpVerifyRequest.kt:[11,9] Unresolved reference: Pattern
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt:[3,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt:[4,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt:[5,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt:[8,9] Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt:[11,9] Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt:[12,9] Unresolved reference: Pattern
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt:[15,9] Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\ResetPasswordRequest.kt:[16,9] Unresolved reference: Size
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt:[3,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt:[4,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt:[5,16] Unresolved reference: validation
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt:[8,9] Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt:[9,9] Unresolved reference: Pattern
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt:[12,9] Unresolved reference: NotBlank
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\dto\request\SignupRequest.kt:[15,9] Unresolved reference: Email
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt:[6,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt:[7,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt:[8,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt:[9,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt:[34,50] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt:[36,26] Unresolved reference: UsernamePasswordAuthenticationToken
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt:[41,20] Variable expected
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt:[41,30] Unresolved reference: WebAuthenticationDetailsSource
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt:[43,5] Unresolved reference: SecurityContextHolder
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtAuthenticationFilter.kt:[43,40] Variable expected
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt:[4,11] Unresolved reference: jsonwebtoken
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt:[5,11] Unresolved reference: jsonwebtoken
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt:[19,25] Unresolved reference: Keys
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt:[25,10] Unresolved reference: Jwts
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt:[37,4] Unresolved reference: Jwts
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt:[42,15] Unresolved reference: JwtException
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt:[50,16] Unresolved reference: Jwts
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt:[60,16] Unresolved reference: Jwts
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt:[73,41] Unresolved reference: Claims
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\JwtTokenProvider.kt:[74,10] Unresolved reference: Jwts
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\PasswordEncoderConfig.kt:[5,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\PasswordEncoderConfig.kt:[6,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\PasswordEncoderConfig.kt:[11,25] Unresolved reference: PasswordEncoder
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\PasswordEncoderConfig.kt:[12,10] Unresolved reference: BCryptPasswordEncoder
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[5,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[6,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[7,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[8,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[9,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[12,2] Unresolved reference: EnableWebSecurity
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[17,32] Unresolved reference: HttpSecurity
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[17,47] Unresolved reference: SecurityFilterChain
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[19,12] Unresolved reference: it
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[20,25] Unresolved reference: it
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[20,50] Unresolved reference: SessionCreationPolicy
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[21,29] Cannot infer a type for this parameter. Please specify it explicitly.
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[32,15] Cannot infer a type for this parameter. Please specify it explicitly.
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[33,28] Unresolved reference: it
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\security\SecurityConfig.kt:[35,46] Unresolved reference: UsernamePasswordAuthenticationFilter
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt:[14,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt:[15,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt:[16,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt:[31,5] Unresolved reference: UserDetailsService
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt:[33,2] 'loadUserByUsername' overrides nothing
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt:[33,53] Unresolved reference: UserDetails
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt:[35,17] Type mismatch: inferred type is Unit! but Throwable! was expected
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt:[35,19] Unresolved reference: UsernameNotFoundException
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt:[37,30] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\AuthService.kt:[44,52] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\PasswordService.kt:[3,28] Unresolved reference: security
+[ERROR] E:\b2b\flutter\apna_dukan_backend\src\main\kotlin\com\apnadukan\auth\service\PasswordService.kt:[8,31] Unresolved reference: PasswordEncoder
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
