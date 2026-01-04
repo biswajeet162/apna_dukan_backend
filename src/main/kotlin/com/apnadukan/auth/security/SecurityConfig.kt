@@ -29,6 +29,8 @@ class SecurityConfig(
 						"/api/v1/auth/signup",
 						"/api/v1/auth/verify-otp",
 						"/api/v1/auth/refresh-token",
+						"/api/v1/products/**",
+						"/api/v1/categories/**",
 						"/h2-console/**",
 						"/v3/api-docs/**",
 						"/swagger-ui/**",

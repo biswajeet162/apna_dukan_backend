@@ -8,10 +8,10 @@ import jakarta.validation.constraints.Size
 data class SignupRequest(
 	@field:NotBlank(message = "Mobile number is required")
 	@field:Pattern(regexp = "^[0-9]{10}$", message = "Mobile number must be 10 digits")
-	val mobileNumber: String,
+	val mobileNumber: String = "",
 
 	@field:NotBlank(message = "First name is required")
-	val firstName: String,
+	val firstName: String = "",
 
 	val lastName: String? = null,
 
@@ -20,6 +20,6 @@ data class SignupRequest(
 
 	@field:NotBlank(message = "Password is required")
 	@field:Size(min = 6, message = "Password must be at least 6 characters")
-	val password: String
+	val password: String = ""
 )
 
