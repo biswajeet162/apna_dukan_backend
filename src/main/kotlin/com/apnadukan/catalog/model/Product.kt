@@ -41,7 +41,11 @@ data class Product(
     val createdAt: LocalDateTime = LocalDateTime.now(),
 
     @Column(name = "updated_at")
-    var updatedAt: LocalDateTime = LocalDateTime.now()
+    var updatedAt: LocalDateTime = LocalDateTime.now(),
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "category_id")
+    var category: Category? = null
 ) {
     val stockAvailable: Boolean
         get() = stockQuantity > 0

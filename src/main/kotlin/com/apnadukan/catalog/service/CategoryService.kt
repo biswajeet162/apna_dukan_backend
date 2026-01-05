@@ -12,14 +12,13 @@ class CategoryService(private val categoryRepository: CategoryRepository) {
     @PostConstruct
     fun initData() {
         if (categoryRepository.count() == 0L) {
-            val electronics = Category(name = "Electronics", slug = "electronics")
-            val mobile = Category(name = "Mobiles", slug = "mobiles", parent = electronics)
-            val laptop = Category(name = "Laptops", slug = "laptops", parent = electronics)
-            
             val fashion = Category(name = "Fashion", slug = "fashion")
-            val men = Category(name = "Men's Wear", slug = "mens-wear", parent = fashion)
+            val tech = Category(name = "Tech", slug = "tech")
+            val home = Category(name = "Home", slug = "home")
+            val beauty = Category(name = "Beauty", slug = "beauty")
+            val sports = Category(name = "Sports", slug = "sports")
             
-            categoryRepository.saveAll(listOf(electronics, mobile, laptop, fashion, men))
+            categoryRepository.saveAll(listOf(fashion, tech, home, beauty, sports))
         }
     }
 
