@@ -50,10 +50,15 @@ class SecurityConfig(
 	@Bean
 	fun corsConfigurationSource(): CorsConfigurationSource {
 		val configuration = CorsConfiguration()
-		configuration.allowedOrigins = listOf("*") // For development, allow all. In production, restrict this.
+		// Use allowedOriginPatterns for better flexibility with subdomains/ports
+		configuration.allowedOriginPatterns = listOf(
+			"https://apna-dukan-frontend.onrender.com",
+			"http://localhost:*",
+			"http://127.0.0.1:*"
+		)
 		configuration.allowedMethods = listOf("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH")
 		configuration.allowedHeaders = listOf("Authorization", "Content-Type", "X-Requested-With", "Accept")
-		configuration.allowCredentials = false // Must be false if allowedOrigins is ["*"]
+		configuration.allowCredentials = true 
 		
 		val source = UrlBasedCorsConfigurationSource()
 		source.registerCorsConfiguration("/**", configuration)
