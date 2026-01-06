@@ -39,6 +39,18 @@ class ProductController(private val productService: ProductService) {
         )
     }
 
+    @GetMapping("/{id}/related")
+    fun getRelatedProducts(@PathVariable id: Long): ResponseEntity<ApiResponse<List<ProductResponse>>> {
+        val products = productService.getRelatedProducts(id)
+        return ResponseEntity.ok(
+            ApiResponse(
+                success = true,
+                message = "Related products retrieved successfully",
+                data = products
+            )
+        )
+    }
+
     @GetMapping("/search")
     fun searchProducts(@RequestParam keyword: String): ResponseEntity<ApiResponse<List<ProductResponse>>> {
         val products = productService.searchProducts(keyword)

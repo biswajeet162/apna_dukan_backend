@@ -8,4 +8,5 @@ import org.springframework.stereotype.Repository
 interface ProductRepository : JpaRepository<Product, Long> {
     fun findByIsActiveTrue(): List<Product>
     fun findByNameContainingIgnoreCase(name: String): List<Product>
+    fun findTop10ByCategoryIdAndIdNot(categoryId: Long, id: Long): List<Product>
 }
