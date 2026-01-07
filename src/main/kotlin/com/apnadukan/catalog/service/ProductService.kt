@@ -100,6 +100,31 @@ class ProductService(
             .map { it.toResponse() }
     }
 
+    /**
+     * Build a list of 3–4 visually similar image URLs from the single
+     * base image stored on the product. This keeps the database schema
+     * simple while giving the frontend multiple images to slide through.
+     */
+    private fun Product.buildImageUrls(): List<String> {
+        val base = this.imageUrl?.trim().orEmpty()
+        if (base.isBlank()) {
+            return listOf("")
+        }
+
+        // Split into path and query so we can generate slight variants
+        val parts = base.split("?", limit = 2)
+        val path = parts[0]
+
+        val urls = listOf(
+            base,
+            "$path?w=800&h=800&fit=crop",
+            "$path?w=800&h=800&fit=crop&sat=-10",
+            "$path?w=800&h=800&fit=crop&exp=-5"
+        )
+
+        return urls.distinct()
+    }
+
     private fun Product.toResponse() = ProductResponse(
         id = this.id ?: 0,
         name = this.name,
@@ -118,7 +143,7 @@ class ProductService(
         price = this.price.toDouble(),
         mrp = this.mrp.toDouble(),
         discountPercentage = this.discountPercentage,
-        imageUrls = listOf(this.imageUrl ?: ""),
+        imageUrls = buildImageUrls(),
         categoryId = this.category?.id ?: 0,
         categoryName = this.category?.name ?: "Uncategorized",
         stock = this.stockQuantity,
